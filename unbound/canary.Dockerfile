@@ -63,6 +63,7 @@ RUN set -xe; \
     --enable-tfo-server \
     --enable-tfo-client \
     --enable-pie \
+    --enable-subnet \
     --enable-relro-now && \
   make && \
   make install && \
